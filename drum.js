@@ -90,6 +90,6 @@ function animation(currentKey) {
   activePushed.style.color = "white";
   setTimeout(function () {
     activePushed.classList.remove("pressed");
-    activePushed.style.color = "#da0463";
+    activePushed.style.color = "red";
   }, 100);
 }
